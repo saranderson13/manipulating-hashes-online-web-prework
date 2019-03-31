@@ -1,3 +1,5 @@
+require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -5,11 +7,12 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  #code your solution here!
-  groceries.each do |food_group, foods|
-    
-  end
   
-  groceries.flatten
+  #code your solution here!
+  
+  all_groceries = []
+  
+  all_groceries << groceries[:dairy].values
+  
+  all_groceries.flatten
 end
