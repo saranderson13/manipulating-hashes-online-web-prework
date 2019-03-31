@@ -9,7 +9,7 @@ def first_challenge
       knows: nil
     },
     "Freddy Mercury" => {
-      name: "Freddy",
+      name: ["Freddy", "Kickass"]
       email: "freddy@mercury.com",
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
@@ -17,8 +17,8 @@ def first_challenge
 
   #your code here
   contacts["Freddy Mercury"].each do |attribute, value|
-    if attribute == :favorite_icecream_flavors
-      value.each do |flavor|
+    if attribute == :name
+      value.each do |name|
         confirmation = "You are here"
       end
     end
