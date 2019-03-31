@@ -16,7 +16,10 @@ def first_challenge
   }
 
   #your code here
-  binding.pry
+  contacts["Freddy Mercury"].each do |attribute, value|
+    confirmation = "You are here."
+    binding.pry
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
