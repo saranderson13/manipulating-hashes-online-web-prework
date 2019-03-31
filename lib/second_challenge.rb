@@ -12,7 +12,7 @@ def second_challenge
   
   # all_groceries = []
   
-  Array.new = groceries.values.flatten
+  Array.new(groceries.values.flatten)
   # binding.pry
   
   # all_groceries.flatten
