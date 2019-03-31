@@ -9,7 +9,7 @@ def first_challenge
       knows: nil
     },
     "Freddy Mercury" => {
-      name: ["Freddy", "Kickass"]
+      name: ["Freddy", "Kickass"],
       email: "freddy@mercury.com",
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
