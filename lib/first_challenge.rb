@@ -20,8 +20,8 @@ def first_challenge
     if attribute == :name
       contacts["Freddy Mercury"][:name] = "Kickass."
     end
-    binding.pry
   end
+  binding.pry
 
   #remember to return your newly altered contacts hash!
   contacts
