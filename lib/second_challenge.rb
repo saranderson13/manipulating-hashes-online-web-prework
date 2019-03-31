@@ -13,6 +13,9 @@ def second_challenge
   all_groceries = []
   
   all_groceries << groceries[:dairy].values
+  binding.pry
   
   all_groceries.flatten
 end
+
+second_challenge
