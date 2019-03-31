@@ -9,13 +9,5 @@ def second_challenge
   }
   
   #code your solution here!
-  
-  # all_groceries = []
-  
   Array.new(groceries.values.flatten)
-  # binding.pry
-  
-  # all_groceries.flatten
 end
-
-# second_challenge
