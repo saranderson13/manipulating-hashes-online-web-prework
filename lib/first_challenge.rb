@@ -17,8 +17,8 @@ def first_challenge
 
   #your code here
   contacts["Freddy Mercury"].each do |attribute, value|
-    if attribute == :name
-      contacts["Freddy Mercury"][:name] = "Kickass."
+    if attribute == :favorite_icecream_flavors
+      contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if { |flavor| flavor = "strawberry" }
     end
   end
   binding.pry
