@@ -18,7 +18,7 @@ def first_challenge
   #your code here
   contacts["Freddy Mercury"].each do |attribute, value|
     if attribute == :name
-      :name = "Kickass."
+      contacts["Freddy Mercury"][:name] = "Kickass."
       binding.pry
     end
   end
