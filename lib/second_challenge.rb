@@ -10,12 +10,12 @@ def second_challenge
   
   #code your solution here!
   
-  all_groceries = []
+  # all_groceries = []
   
-  all_groceries << groceries.values
+  Array.new = groceries.values.flatte
   # binding.pry
   
-  all_groceries.flatten
+  # all_groceries.flatten
 end
 
 # second_challenge
