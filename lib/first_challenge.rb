@@ -18,7 +18,7 @@ def first_challenge
   #your code here
   contacts["Freddy Mercury"].each do |attribute, value|
     if attribute == :favorite_icecream_flavors
-      attribute.each do |flavor|
+      value.each do |flavor|
         confirmation = "You are here"
       end
     end
